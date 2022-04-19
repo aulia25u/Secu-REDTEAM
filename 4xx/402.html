@@ -97,18 +97,18 @@
       <input id="numb" placeholder="Link Yang Didapatkan">
       <button type="button" onclick="myFunction()">Submit</button>
       <br>
-      <p id="demo"></p>
 
       <script>
         function myFunction() {
           let x = document.getElementById("numb").value;
           let text;
             if (x == "http://5.181.217.7:9999/" || x == "http://5.181.217.7:9999" || x == "5.181.217.7:9999") {
-                text = "http://bank.seculab.space";
+                text = "Bank Hunter : http://bank.seculab.space";
             } else {
                 text = "Maaf input anda salah";
             }
-          document.getElementById("demo").innerHTML = text;
+          // Alert the content of text
+          alert(text);
         }
         </script>
     <!-- End Input text  -->
